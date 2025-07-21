@@ -1,0 +1,23 @@
+.background{
+    background-color: rgba(0, 0, 0, 0.228);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color:white;
+    }
+}
+
+.gameTable{
+    display: flex;
+    flex-direction: column;
+    
+    .score{
+        margin-left: 10px;
+    }
+}

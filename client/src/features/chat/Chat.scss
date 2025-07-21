@@ -1,0 +1,42 @@
+.chat {
+    width: 40%;
+    height: 86%;
+
+    .messages {
+        height: 90%;
+        list-style: none;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    form {
+
+        bottom: 0;
+        right: 0;
+
+        input {
+            background-color: #102433;
+            border: none;
+            width: 80%;
+            padding: 5px 7px;
+            font-size: 1.01rem;
+            border-radius: 10px;
+            color: white;
+        }
+
+        button {
+            color: white;
+            font-weight: bold;
+            background-color: #102433;
+            border: none;
+            padding: 5px 7px;
+            margin-left: 5px;
+        }
+    }
+
+
+}
